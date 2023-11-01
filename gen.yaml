@@ -1,14 +1,28 @@
 configVersion: 1.0.0
+management:
+  docChecksum: 671ec902e8844409c0537e86034d6783
+  docVersion: 1.0.0
+  speakeasyVersion: 1.111.0
+  generationVersion: 2.173.0
 generation:
   comments:
     disableComments: false
     omitDescriptionIfSummaryPresent: false
   baseServerURL: ""
+  repoURL: https://github.com/speakeasy-sdks/testing-playground-sdk.git
   sdkClassName: Ash-Testing
   singleTagPerOp: false
   tagNamespacingDisabled: false
+features:
+  go:
+    core: 2.94.0
+    globalServerURLs: 2.82.0
 go:
-  version: 0.0.1
+  version: 0.1.0
   clientServerStatusCodesAsErrors: true
+  flattenGlobalSecurity: true
+  installationURL: https://github.com/speakeasy-sdks/testing-playground-sdk
   maxMethodParams: 0
   packageName: github.com/speakeasy-sdks/testing-playground-sdk
+  published: true
+  repoSubDirectory: .
