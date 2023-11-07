@@ -1,6 +1,7 @@
 ashtesting.go
 go.mod
 go.sum
+tests/helpers.go
 pkg/models/sdkerrors/sdkerror.go
 pkg/types/bigint.go
 pkg/types/date.go
@@ -17,10 +18,9 @@ pkg/utils/requestbody.go
 pkg/utils/retries.go
 pkg/utils/security.go
 pkg/utils/utils.go
-tests/helpers.go
-pkg/models/operations/getnatureidorname.go
-pkg/models/operations/getpokemonidorname.go
-pkg/models/operations/getstatidorname.go
+/pkg/models/operations/getnatureidorname.go
+/pkg/models/operations/getpokemonidorname.go
+/pkg/models/operations/getstatidorname.go
 USAGE.md
 docs/models/operations/getnatureidornamerequest.md
 docs/models/operations/getnatureidornameresponse.md

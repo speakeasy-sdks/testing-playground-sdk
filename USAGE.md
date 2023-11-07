@@ -15,7 +15,7 @@ func main() {
 	s := testingplaygroundsdk.New()
 
 	ctx := context.Background()
-	res, err := s.AshTesting.GetNatureIDOrName(ctx, operations.GetNatureIDOrNameRequest{
+	res, err := s.GetNatureIDOrName(ctx, operations.GetNatureIDOrNameRequest{
 		IDOrName: "string",
 	})
 	if err != nil {

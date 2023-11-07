@@ -31,7 +31,7 @@ func main() {
     s := testingplaygroundsdk.New()
 
     ctx := context.Background()
-    res, err := s.AshTesting.GetNatureIDOrName(ctx, operations.GetNatureIDOrNameRequest{
+    res, err := s.GetNatureIDOrName(ctx, operations.GetNatureIDOrNameRequest{
         IDOrName: "string",
     })
     if err != nil {
@@ -77,7 +77,7 @@ func main() {
     s := testingplaygroundsdk.New()
 
     ctx := context.Background()
-    res, err := s.AshTesting.GetPokemonIDOrName(ctx, operations.GetPokemonIDOrNameRequest{
+    res, err := s.GetPokemonIDOrName(ctx, operations.GetPokemonIDOrNameRequest{
         IDOrName: "string",
     })
     if err != nil {
@@ -123,7 +123,7 @@ func main() {
     s := testingplaygroundsdk.New()
 
     ctx := context.Background()
-    res, err := s.AshTesting.GetStatIDOrName(ctx, operations.GetStatIDOrNameRequest{
+    res, err := s.GetStatIDOrName(ctx, operations.GetStatIDOrNameRequest{
         IDOrName: "string",
     })
     if err != nil {

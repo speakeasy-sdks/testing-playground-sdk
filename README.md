@@ -15,7 +15,7 @@ It has been generated successfully based on your OpenAPI spec. However, it is no
 - [ ] 🎁 Publish your SDK to package managers by [configuring automatic publishing](https://www.speakeasyapi.dev/docs/productionize-sdks/publish-sdks)
 - [ ] ✨ When ready to productionize, delete this section from the README
 <!-- Start SDK Installation -->
-# SDK Installation
+## SDK Installation
 
 ```bash
 go get github.com/speakeasy-sdks/testing-playground-sdk
@@ -24,8 +24,6 @@ go get github.com/speakeasy-sdks/testing-playground-sdk
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
-
-
 ```go
 package main
 
@@ -40,7 +38,7 @@ func main() {
 	s := testingplaygroundsdk.New()
 
 	ctx := context.Background()
-	res, err := s.AshTesting.GetNatureIDOrName(ctx, operations.GetNatureIDOrNameRequest{
+	res, err := s.GetNatureIDOrName(ctx, operations.GetNatureIDOrNameRequest{
 		IDOrName: "string",
 	})
 	if err != nil {
@@ -56,9 +54,9 @@ func main() {
 <!-- End SDK Example Usage -->
 
 <!-- Start SDK Available Operations -->
-# Available Resources and Operations
+## Available Resources and Operations
 
-## [AshTesting SDK](docs/sdks/ashtesting/README.md)
+### [AshTesting SDK](docs/sdks/ashtesting/README.md)
 
 * [GetNatureIDOrName](docs/sdks/ashtesting/README.md#getnatureidorname) - Retrieve a Nature by ID or name
 * [GetPokemonIDOrName](docs/sdks/ashtesting/README.md#getpokemonidorname) - Retrieve a Pokémon by ID or name
@@ -67,16 +65,12 @@ func main() {
 
 <!-- Start Dev Containers -->
 
-
-
 <!-- End Dev Containers -->
 
 <!-- Start Error Handling -->
 # Error Handling
 
 Handling errors in your SDK should largely match your expectations.  All operations return a response object or an error, they will never return both.  When specified by the OpenAPI spec document, the SDK will return the appropriate subclass.
-
-
 <!-- End Error Handling -->
 
 <!-- Start Server Selection -->
@@ -91,7 +85,6 @@ You can override the default server globally using the `WithServerIndex` option 
 | 0 | `https://pokeapi.co/api/v2` | None |
 
 For example:
-
 
 ```go
 package main
@@ -109,7 +102,7 @@ func main() {
 	)
 
 	ctx := context.Background()
-	res, err := s.AshTesting.GetNatureIDOrName(ctx, operations.GetNatureIDOrNameRequest{
+	res, err := s.GetNatureIDOrName(ctx, operations.GetNatureIDOrNameRequest{
 		IDOrName: "string",
 	})
 	if err != nil {
@@ -128,7 +121,6 @@ func main() {
 
 The default server can also be overridden globally using the `WithServerURL` option when initializing the SDK client instance. For example:
 
-
 ```go
 package main
 
@@ -145,7 +137,7 @@ func main() {
 	)
 
 	ctx := context.Background()
-	res, err := s.AshTesting.GetNatureIDOrName(ctx, operations.GetNatureIDOrNameRequest{
+	res, err := s.GetNatureIDOrName(ctx, operations.GetNatureIDOrNameRequest{
 		IDOrName: "string",
 	})
 	if err != nil {
