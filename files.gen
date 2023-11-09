@@ -22,11 +22,11 @@ pkg/utils/utils.go
 /pkg/models/operations/getpokemonidorname.go
 /pkg/models/operations/getstatidorname.go
 USAGE.md
-docs/models/operations/getnatureidornamerequest.md
-docs/models/operations/getnatureidornameresponse.md
-docs/models/operations/getpokemonidornamerequest.md
-docs/models/operations/getpokemonidornameresponse.md
-docs/models/operations/getstatidornamerequest.md
-docs/models/operations/getstatidornameresponse.md
+docs/pkg/models/operations/getnatureidornamerequest.md
+docs/pkg/models/operations/getnatureidornameresponse.md
+docs/pkg/models/operations/getpokemonidornamerequest.md
+docs/pkg/models/operations/getpokemonidornameresponse.md
+docs/pkg/models/operations/getstatidornamerequest.md
+docs/pkg/models/operations/getstatidornameresponse.md
 docs/sdks/ashtesting/README.md
 .gitattributes
