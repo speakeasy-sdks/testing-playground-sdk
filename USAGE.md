@@ -1,6 +1,4 @@
 <!-- Start SDK Example Usage -->
-
-
 ```go
 package main
 
@@ -9,6 +7,7 @@ import (
 	testingplaygroundsdk "github.com/speakeasy-sdks/testing-playground-sdk"
 	"github.com/speakeasy-sdks/testing-playground-sdk/pkg/models/operations"
 	"log"
+	"net/http"
 )
 
 func main() {

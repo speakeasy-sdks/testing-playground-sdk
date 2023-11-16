@@ -21,10 +21,11 @@ Retrieve a Nature by ID or name
 package main
 
 import(
-	"context"
-	"log"
 	testingplaygroundsdk "github.com/speakeasy-sdks/testing-playground-sdk"
+	"context"
 	"github.com/speakeasy-sdks/testing-playground-sdk/pkg/models/operations"
+	"log"
+	"net/http"
 )
 
 func main() {
@@ -69,10 +70,11 @@ Retrieve a Pokémon by ID or name
 package main
 
 import(
-	"context"
-	"log"
 	testingplaygroundsdk "github.com/speakeasy-sdks/testing-playground-sdk"
+	"context"
 	"github.com/speakeasy-sdks/testing-playground-sdk/pkg/models/operations"
+	"log"
+	"net/http"
 )
 
 func main() {
@@ -117,10 +119,11 @@ Retrieve a Stat by ID or name
 package main
 
 import(
-	"context"
-	"log"
 	testingplaygroundsdk "github.com/speakeasy-sdks/testing-playground-sdk"
+	"context"
 	"github.com/speakeasy-sdks/testing-playground-sdk/pkg/models/operations"
+	"log"
+	"net/http"
 )
 
 func main() {
