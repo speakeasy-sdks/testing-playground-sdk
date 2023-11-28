@@ -21,7 +21,6 @@ pkg/utils/utils.go
 /pkg/models/operations/getnatureidorname.go
 /pkg/models/operations/getpokemonidorname.go
 /pkg/models/operations/getstatidorname.go
-USAGE.md
 docs/pkg/models/operations/getnatureidornamerequest.md
 docs/pkg/models/operations/getnatureidornameresponse.md
 docs/pkg/models/operations/getpokemonidornamerequest.md
@@ -29,4 +28,5 @@ docs/pkg/models/operations/getpokemonidornameresponse.md
 docs/pkg/models/operations/getstatidornamerequest.md
 docs/pkg/models/operations/getstatidornameresponse.md
 docs/sdks/ashtesting/README.md
+USAGE.md
 .gitattributes
