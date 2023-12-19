@@ -58,7 +58,7 @@ func main() {
 **[*operations.GetNatureIDOrNameResponse](../../pkg/models/operations/getnatureidornameresponse.md), error**
 | Error Object       | Status Code        | Content Type       |
 | ------------------ | ------------------ | ------------------ |
-| sdkerrors.SDKError | 400-600            | */*                |
+| sdkerrors.SDKError | 4xx-5xx            | */*                |
 
 ## GetPokemonIDOrName
 
@@ -107,7 +107,7 @@ func main() {
 **[*operations.GetPokemonIDOrNameResponse](../../pkg/models/operations/getpokemonidornameresponse.md), error**
 | Error Object       | Status Code        | Content Type       |
 | ------------------ | ------------------ | ------------------ |
-| sdkerrors.SDKError | 400-600            | */*                |
+| sdkerrors.SDKError | 4xx-5xx            | */*                |
 
 ## GetStatIDOrName
 
@@ -156,4 +156,4 @@ func main() {
 **[*operations.GetStatIDOrNameResponse](../../pkg/models/operations/getstatidornameresponse.md), error**
 | Error Object       | Status Code        | Content Type       |
 | ------------------ | ------------------ | ------------------ |
-| sdkerrors.SDKError | 400-600            | */*                |
+| sdkerrors.SDKError | 4xx-5xx            | */*                |
