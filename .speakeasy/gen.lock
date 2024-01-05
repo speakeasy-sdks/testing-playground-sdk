@@ -1,0 +1,50 @@
+lockVersion: 2.0.0
+id: 7ded5f48-f92a-4636-94cc-2cd987663aa9
+management:
+  docChecksum: 671ec902e8844409c0537e86034d6783
+  docVersion: 1.0.0
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 0.3.1
+  configChecksum: b8aa9777074b883598fd094ae99a0992
+  repoURL: https://github.com/speakeasy-sdks/testing-playground-sdk.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/testing-playground-sdk
+  published: true
+features:
+  go:
+    core: 3.3.0
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - ashtesting.go
+  - go.mod
+  - go.sum
+  - tests/helpers.go
+  - pkg/models/sdkerrors/sdkerror.go
+  - pkg/types/bigint.go
+  - pkg/types/date.go
+  - pkg/types/datetime.go
+  - pkg/types/decimal.go
+  - pkg/types/pointers.go
+  - pkg/utils/contenttype.go
+  - pkg/utils/form.go
+  - pkg/utils/headers.go
+  - pkg/utils/json.go
+  - pkg/utils/pathparams.go
+  - pkg/utils/queryparams.go
+  - pkg/utils/requestbody.go
+  - pkg/utils/retries.go
+  - pkg/utils/security.go
+  - pkg/utils/utils.go
+  - /pkg/models/operations/getnatureidorname.go
+  - /pkg/models/operations/getpokemonidorname.go
+  - /pkg/models/operations/getstatidorname.go
+  - docs/pkg/models/operations/getnatureidornamerequest.md
+  - docs/pkg/models/operations/getnatureidornameresponse.md
+  - docs/pkg/models/operations/getpokemonidornamerequest.md
+  - docs/pkg/models/operations/getpokemonidornameresponse.md
+  - docs/pkg/models/operations/getstatidornamerequest.md
+  - docs/pkg/models/operations/getstatidornameresponse.md
+  - docs/sdks/ashtesting/README.md
+  - USAGE.md
+  - .gitattributes
