@@ -4,16 +4,16 @@ management:
   docChecksum: 671ec902e8844409c0537e86034d6783
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.237.2
-  releaseVersion: 0.3.2
-  configChecksum: 2b4ce1bbdd1be74d2420b12944a767dd
+  generationVersion: 2.250.2
+  releaseVersion: 0.4.0
+  configChecksum: 7f420cf9f10e3cce2d78e25eed0f4a6f
   repoURL: https://github.com/speakeasy-sdks/testing-playground-sdk.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/testing-playground-sdk
   published: true
 features:
   go:
-    core: 3.3.1
+    core: 3.3.2
     globalServerURLs: 2.82.1
 generatedFiles:
   - ashtesting.go
