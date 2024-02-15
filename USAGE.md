@@ -15,7 +15,7 @@ func main() {
 
 	ctx := context.Background()
 	res, err := s.GetNatureIDOrName(ctx, operations.GetNatureIDOrNameRequest{
-		IDOrName: "string",
+		IDOrName: "<value>",
 	})
 	if err != nil {
 		log.Fatal(err)

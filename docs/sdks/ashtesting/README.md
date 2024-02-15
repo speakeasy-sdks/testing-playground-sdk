@@ -33,7 +33,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.GetNatureIDOrName(ctx, operations.GetNatureIDOrNameRequest{
-        IDOrName: "string",
+        IDOrName: "<value>",
     })
     if err != nil {
         log.Fatal(err)
@@ -82,7 +82,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.GetPokemonIDOrName(ctx, operations.GetPokemonIDOrNameRequest{
-        IDOrName: "string",
+        IDOrName: "<value>",
     })
     if err != nil {
         log.Fatal(err)
@@ -131,7 +131,7 @@ func main() {
 
     ctx := context.Background()
     res, err := s.GetStatIDOrName(ctx, operations.GetStatIDOrNameRequest{
-        IDOrName: "string",
+        IDOrName: "<value>",
     })
     if err != nil {
         log.Fatal(err)
