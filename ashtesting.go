@@ -121,9 +121,9 @@ func New(opts ...SDKOption) *AshTesting {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "0.5.0",
-			GenVersion:        "2.258.0",
-			UserAgent:         "speakeasy-sdk/go 0.5.0 2.258.0 1.0.0 github.com/speakeasy-sdks/testing-playground-sdk",
+			SDKVersion:        "0.5.1",
+			GenVersion:        "2.263.3",
+			UserAgent:         "speakeasy-sdk/go 0.5.1 2.263.3 1.0.0 github.com/speakeasy-sdks/testing-playground-sdk",
 			Hooks:             hooks.New(),
 		},
 	}
@@ -161,12 +161,12 @@ func (s *AshTesting) GetNatureIDOrName(ctx context.Context, request operations.G
 	req.Header.Set("Accept", "*/*")
 	req.Header.Set("User-Agent", s.sdkConfiguration.UserAgent)
 
-	client := s.sdkConfiguration.DefaultClient
-
 	req, err = s.sdkConfiguration.Hooks.BeforeRequest(hooks.BeforeRequestContext{hookCtx}, req)
 	if err != nil {
 		return nil, err
 	}
+
+	client := s.sdkConfiguration.DefaultClient
 
 	httpRes, err := client.Do(req)
 	if err != nil || httpRes == nil {
@@ -189,7 +189,6 @@ func (s *AshTesting) GetNatureIDOrName(ctx context.Context, request operations.G
 			return nil, err
 		}
 	}
-
 	contentType := httpRes.Header.Get("Content-Type")
 
 	res := &operations.GetNatureIDOrNameResponse{
@@ -235,12 +234,12 @@ func (s *AshTesting) GetPokemonIDOrName(ctx context.Context, request operations.
 	req.Header.Set("Accept", "*/*")
 	req.Header.Set("User-Agent", s.sdkConfiguration.UserAgent)
 
-	client := s.sdkConfiguration.DefaultClient
-
 	req, err = s.sdkConfiguration.Hooks.BeforeRequest(hooks.BeforeRequestContext{hookCtx}, req)
 	if err != nil {
 		return nil, err
 	}
+
+	client := s.sdkConfiguration.DefaultClient
 
 	httpRes, err := client.Do(req)
 	if err != nil || httpRes == nil {
@@ -263,7 +262,6 @@ func (s *AshTesting) GetPokemonIDOrName(ctx context.Context, request operations.
 			return nil, err
 		}
 	}
-
 	contentType := httpRes.Header.Get("Content-Type")
 
 	res := &operations.GetPokemonIDOrNameResponse{
@@ -309,12 +307,12 @@ func (s *AshTesting) GetStatIDOrName(ctx context.Context, request operations.Get
 	req.Header.Set("Accept", "*/*")
 	req.Header.Set("User-Agent", s.sdkConfiguration.UserAgent)
 
-	client := s.sdkConfiguration.DefaultClient
-
 	req, err = s.sdkConfiguration.Hooks.BeforeRequest(hooks.BeforeRequestContext{hookCtx}, req)
 	if err != nil {
 		return nil, err
 	}
+
+	client := s.sdkConfiguration.DefaultClient
 
 	httpRes, err := client.Do(req)
 	if err != nil || httpRes == nil {
@@ -337,7 +335,6 @@ func (s *AshTesting) GetStatIDOrName(ctx context.Context, request operations.Get
 			return nil, err
 		}
 	}
-
 	contentType := httpRes.Header.Get("Content-Type")
 
 	res := &operations.GetStatIDOrNameResponse{
