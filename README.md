@@ -35,7 +35,6 @@ import (
 	testingplaygroundsdk "github.com/speakeasy-sdks/testing-playground-sdk"
 	"github.com/speakeasy-sdks/testing-playground-sdk/pkg/models/operations"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -48,8 +47,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }
@@ -131,7 +129,6 @@ import (
 	testingplaygroundsdk "github.com/speakeasy-sdks/testing-playground-sdk"
 	"github.com/speakeasy-sdks/testing-playground-sdk/pkg/models/operations"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -146,8 +143,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }
@@ -166,7 +162,6 @@ import (
 	testingplaygroundsdk "github.com/speakeasy-sdks/testing-playground-sdk"
 	"github.com/speakeasy-sdks/testing-playground-sdk/pkg/models/operations"
 	"log"
-	"net/http"
 )
 
 func main() {
@@ -181,8 +176,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	if res.StatusCode == http.StatusOK {
+	if res != nil {
 		// handle response
 	}
 }
